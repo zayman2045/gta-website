@@ -3,12 +3,12 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       {/* Hero Section */}
       <header className="relative h-screen flex items-center justify-center">
-        <div className="absolute inset-0 bg-black/50 z-10"></div>
+        <div className="absolute inset-0 bg-black/30 z-10"></div>
         <div className="relative z-20 text-center px-4">
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 text-white neon-text">
+          <h1 className="text-6xl md:text-8xl font-bold mb-6 text-white neon-text drop-shadow-[0_0_15px_rgba(0,0,0,0.8)]">
             GRAND THEFT AUTO VI
           </h1>
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto drop-shadow-[0_0_10px_rgba(0,0,0,0.8)]">
             Welcome to Vice City, where the sun never sets on the American dream
           </p>
           <button className="gta-button">Enter Vice City</button>
