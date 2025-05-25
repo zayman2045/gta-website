@@ -5,13 +5,13 @@ export default function Home() {
       <header className="relative h-screen flex items-center justify-center">
         <div className="absolute inset-0 bg-black/50 z-10"></div>
         <div className="relative z-20 text-center px-4">
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 text-white">
-            GRAND THEFT AUTO IV
+          <h1 className="text-6xl md:text-8xl font-bold mb-6 text-white neon-text">
+            GRAND THEFT AUTO VI
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Welcome to Liberty City, where your American dream begins
+            Welcome to Vice City, where the sun never sets on the American dream
           </p>
-          <button className="gta-button">Enter Liberty City</button>
+          <button className="gta-button">Enter Vice City</button>
         </div>
       </header>
 
@@ -19,24 +19,31 @@ export default function Home() {
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="gta-card">
-            <h3 className="text-2xl font-bold mb-4 text-white">Liberty City</h3>
+            <h3 className="text-2xl font-bold mb-4 text-white neon-text">
+              Vice City
+            </h3>
             <p className="text-gray-300">
-              Explore the vast open world of Liberty City, a living, breathing
-              metropolis inspired by New York City.
+              Explore the neon-lit streets of Vice City, a vibrant metropolis
+              inspired by Miami, featuring stunning beaches and a thriving
+              nightlife.
             </p>
           </div>
           <div className="gta-card">
-            <h3 className="text-2xl font-bold mb-4 text-white">Niko Bellic</h3>
+            <h3 className="text-2xl font-bold mb-4 text-white neon-text pink">
+              Lucia & Jason
+            </h3>
             <p className="text-gray-300">
-              Play as Niko Bellic, a war veteran from Eastern Europe, seeking to
-              escape his past and find the American dream.
+              Play as Lucia and Jason, a dynamic duo navigating the criminal
+              underworld of Vice City in the most ambitious GTA story yet.
             </p>
           </div>
           <div className="gta-card">
-            <h3 className="text-2xl font-bold mb-4 text-white">Epic Story</h3>
+            <h3 className="text-2xl font-bold mb-4 text-white neon-text">
+              Next-Gen Experience
+            </h3>
             <p className="text-gray-300">
-              Experience a gripping narrative filled with crime, betrayal, and
-              redemption in the criminal underworld.
+              Experience the most immersive open world ever created, featuring
+              cutting-edge graphics, advanced AI, and unprecedented detail.
             </p>
           </div>
         </div>
@@ -45,18 +52,16 @@ export default function Home() {
       {/* Call to Action */}
       <section className="py-20 px-4 bg-black/80">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6 text-white">
-            Ready to Begin Your Journey?
+          <h2 className="text-4xl font-bold mb-6 text-white neon-text">
+            Ready for the Next Chapter?
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Join Niko Bellic in his quest for the American dream in the most
-            immersive open-world experience ever created.
+            Join Lucia and Jason in their quest for fortune and freedom in the
+            most ambitious Grand Theft Auto ever created.
           </p>
           <div className="flex gap-4 justify-center">
-            <button className="gta-button">Buy Now</button>
-            <button className="gta-button bg-gray-800 hover:bg-gray-700">
-              Watch Trailer
-            </button>
+            <button className="gta-button">Pre-Order Now</button>
+            <button className="gta-button secondary">Watch Trailer</button>
           </div>
         </div>
       </section>
@@ -64,6 +69,9 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-8 px-4 bg-black/90 text-center text-gray-400">
         <p>© 2024 Rockstar Games. All rights reserved.</p>
+        <p className="text-sm mt-2">
+          Coming 2025 to PlayStation 5 and Xbox Series X|S
+        </p>
       </footer>
     </div>
   );
