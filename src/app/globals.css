@@ -36,6 +36,35 @@ body {
   background-attachment: fixed;
 }
 
+/* Navigation Styles */
+nav {
+  transition: all 0.3s ease;
+}
+
+nav.scrolled {
+  background-color: rgba(0, 0, 0, 0.95);
+  box-shadow: 0 0 20px rgba(0, 255, 157, 0.2);
+}
+
+nav a {
+  position: relative;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: var(--accent);
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
 .gta-button {
   background-color: var(--accent);
   color: black;
