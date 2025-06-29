@@ -1,4 +1,5 @@
 import Navigation from "../../components/Navigation";
+import GTACard from "../../components/GTACard";
 
 export default function Missions() {
   return (
@@ -6,7 +7,7 @@ export default function Missions() {
       <Navigation currentPage="missions" />
 
       {/* Hero Section */}
-      <header className="relative pt-40 pb-0 px-4">
+      <header className="relative pt-40 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white neon-text">
             MISSIONS
@@ -16,7 +17,7 @@ export default function Missions() {
             street-level crime to high-stakes heists, every mission shapes your
             destiny.
           </p>
-          <button className="gta-button">Create Mission</button>
+          <button className="gta-button secondary">Create Mission</button>
         </div>
       </header>
 
@@ -24,107 +25,49 @@ export default function Missions() {
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Mission Card 1 */}
-            <div className="gta-card">
-              <h3 className="text-2xl font-bold mb-4 text-white neon-text">
-                The Setup
-              </h3>
-              <p className="text-gray-300 mb-4">
-                Your first mission in Vice City. Learn the ropes and establish
-                your reputation in the criminal underworld.
-              </p>
-              <div className="flex justify-between items-center">
-                <span className="text-accent text-sm font-bold">
-                  DIFFICULTY: EASY
-                </span>
-                <span className="text-gray-400 text-sm">$5,000</span>
-              </div>
-            </div>
+            <GTACard
+              title="The Setup"
+              description="Your first mission in Vice City. Learn the ropes and establish your reputation in the criminal underworld."
+              difficulty="EASY"
+              reward="$5,000"
+            />
 
-            {/* Mission Card 2 */}
-            <div className="gta-card">
-              <h3 className="text-2xl font-bold mb-4 text-white neon-text pink">
-                Neon Nights
-              </h3>
-              <p className="text-gray-300 mb-4">
-                Navigate the neon-lit streets of Vice City in a high-speed chase
-                that will test your driving skills.
-              </p>
-              <div className="flex justify-between items-center">
-                <span className="text-accent text-sm font-bold">
-                  DIFFICULTY: MEDIUM
-                </span>
-                <span className="text-gray-400 text-sm">$15,000</span>
-              </div>
-            </div>
+            <GTACard
+              title="Neon Nights"
+              description="Navigate the neon-lit streets of Vice City in a high-speed chase that will test your driving skills."
+              difficulty="MEDIUM"
+              reward="$15,000"
+              titleColor="pink"
+            />
 
-            {/* Mission Card 3 */}
-            <div className="gta-card">
-              <h3 className="text-2xl font-bold mb-4 text-white neon-text">
-                Beach Heist
-              </h3>
-              <p className="text-gray-300 mb-4">
-                A daring robbery on the beaches of Vice City. Perfect your
-                timing and escape with the loot.
-              </p>
-              <div className="flex justify-between items-center">
-                <span className="text-accent text-sm font-bold">
-                  DIFFICULTY: HARD
-                </span>
-                <span className="text-gray-400 text-sm">$50,000</span>
-              </div>
-            </div>
+            <GTACard
+              title="Beach Heist"
+              description="A daring robbery on the beaches of Vice City. Perfect your timing and escape with the loot."
+              difficulty="HARD"
+              reward="$50,000"
+            />
 
-            {/* Mission Card 4 */}
-            <div className="gta-card">
-              <h3 className="text-2xl font-bold mb-4 text-white neon-text">
-                Criminal Empire
-              </h3>
-              <p className="text-gray-300 mb-4">
-                Build your criminal empire from the ground up. Control
-                territories and expand your influence.
-              </p>
-              <div className="flex justify-between items-center">
-                <span className="text-accent text-sm font-bold">
-                  DIFFICULTY: EXPERT
-                </span>
-                <span className="text-gray-400 text-sm">$100,000</span>
-              </div>
-            </div>
+            <GTACard
+              title="Criminal Empire"
+              description="Build your criminal empire from the ground up. Control territories and expand your influence."
+              difficulty="EXPERT"
+              reward="$100,000"
+            />
 
-            {/* Mission Card 5 */}
-            <div className="gta-card">
-              <h3 className="text-2xl font-bold mb-4 text-white neon-text pink">
-                Vice City Vendetta
-              </h3>
-              <p className="text-gray-300 mb-4">
-                The ultimate mission. Take down the biggest players in Vice City
-                and claim your throne.
-              </p>
-              <div className="flex justify-between items-center">
-                <span className="text-accent text-sm font-bold">
-                  DIFFICULTY: LEGENDARY
-                </span>
-                <span className="text-gray-400 text-sm">$500,000</span>
-              </div>
-            </div>
+            <GTACard
+              title="Vice City Vendetta"
+              description="The ultimate mission. Take down the biggest players in Vice City and claim your throne."
+              difficulty="LEGENDARY"
+              reward="$500,000"
+              titleColor="pink"
+            />
 
-            {/* Mission Card 6 */}
-            <div className="gta-card">
-              <h3 className="text-2xl font-bold mb-4 text-white neon-text">
-                Coming Soon
-              </h3>
-              <p className="text-gray-300 mb-4">
-                More missions await in the full game. Pre-order now to unlock
-                exclusive missions on day one.
-              </p>
-              <div className="flex justify-between items-center">
-                <span className="text-accent text-sm font-bold">
-                  DIFFICULTY: ???
-                </span>
-                <span className="text-gray-400 text-sm">TBA</span>
-              </div>
-            </div>
+            <GTACard
+              title="Coming Soon"
+              description="More missions await in the full game. Pre-order now to unlock exclusive missions on day one."
+              difficulty="???"
+              reward="TBA"
+            />
           </div>
         </div>
       </section>
