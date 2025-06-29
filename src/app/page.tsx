@@ -19,25 +19,7 @@ export default function Home() {
                   href="#"
                   className="text-gray-300 hover:text-accent transition-colors"
                 >
-                  Home
-                </a>
-                <a
-                  href="#"
-                  className="text-gray-300 hover:text-accent transition-colors"
-                >
-                  Features
-                </a>
-                <a
-                  href="#"
-                  className="text-gray-300 hover:text-accent transition-colors"
-                >
-                  Gallery
-                </a>
-                <a
-                  href="#"
-                  className="text-gray-300 hover:text-accent transition-colors"
-                >
-                  News
+                  Missions
                 </a>
                 <button className="gta-button text-sm">Pre-Order</button>
               </div>
@@ -71,25 +53,7 @@ export default function Home() {
               href="#"
               className="block px-3 py-2 text-gray-300 hover:text-accent"
             >
-              Home
-            </a>
-            <a
-              href="#"
-              className="block px-3 py-2 text-gray-300 hover:text-accent"
-            >
-              Features
-            </a>
-            <a
-              href="#"
-              className="block px-3 py-2 text-gray-300 hover:text-accent"
-            >
-              Gallery
-            </a>
-            <a
-              href="#"
-              className="block px-3 py-2 text-gray-300 hover:text-accent"
-            >
-              News
+              Missions
             </a>
             <button className="w-full gta-button text-sm mt-2">
               Pre-Order
