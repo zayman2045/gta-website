@@ -6,7 +6,7 @@ export default function Missions() {
       <Navigation currentPage="missions" />
 
       {/* Hero Section */}
-      <header className="relative pt-16 pb-20 px-4">
+      <header className="relative pt-40 pb-0 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white neon-text">
             MISSIONS
@@ -16,6 +16,7 @@ export default function Missions() {
             street-level crime to high-stakes heists, every mission shapes your
             destiny.
           </p>
+          <button className="gta-button">Create Mission</button>
         </div>
       </header>
 
