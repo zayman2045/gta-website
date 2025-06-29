@@ -64,11 +64,26 @@ export default function Home() {
             Join Lucia and Jason in their quest for fortune and freedom in the
             most ambitious Grand Theft Auto ever created.
           </p>
-          <div className="flex gap-4 justify-center">
+          <div className="flex gap-4 justify-center flex-wrap">
             <Link href="/pre-order" className="gta-button">
               Pre-Order Now
             </Link>
-            <button className="gta-button secondary">Watch Trailer</button>
+            <a
+              href="https://www.youtube.com/watch?v=QdBZY2fkU-0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="gta-button secondary"
+            >
+              Watch Trailer 1
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=VQRLujxTm3c"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="gta-button secondary"
+            >
+              Watch Trailer 2
+            </a>
           </div>
         </div>
       </section>
