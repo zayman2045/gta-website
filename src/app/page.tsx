@@ -1,4 +1,5 @@
 import Navigation from "../components/Navigation";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -64,7 +65,9 @@ export default function Home() {
             most ambitious Grand Theft Auto ever created.
           </p>
           <div className="flex gap-4 justify-center">
-            <button className="gta-button">Pre-Order Now</button>
+            <Link href="/pre-order" className="gta-button">
+              Pre-Order Now
+            </Link>
             <button className="gta-button secondary">Watch Trailer</button>
           </div>
         </div>
