@@ -1,4 +1,5 @@
 import Navigation from "../../components/Navigation";
+import Image from "next/image";
 
 export default function PreOrder() {
   return (
@@ -25,16 +26,15 @@ export default function PreOrder() {
             {/* Game Image */}
             <div className="text-center lg:text-left">
               <div className="relative">
-                <div className="aspect-[16/9] bg-gradient-to-br from-accent/20 to-neon-pink/20 rounded-lg border border-accent/30 overflow-hidden">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="text-6xl mb-4">🎮</div>
-                      <p className="text-gray-400 text-lg">Game Cover Art</p>
-                      <p className="text-gray-500 text-sm">
-                        (Placeholder for actual game image)
-                      </p>
-                    </div>
-                  </div>
+                <div className="aspect-[493/622] rounded-lg border border-accent/30 overflow-hidden">
+                  <Image
+                    src="/gta-vi-ps5-cover.jpg"
+                    alt="Grand Theft Auto VI PS5 Cover"
+                    width={493}
+                    height={622}
+                    className="w-full h-full object-cover"
+                    priority
+                  />
                 </div>
               </div>
             </div>
