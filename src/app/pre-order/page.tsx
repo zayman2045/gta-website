@@ -26,12 +26,12 @@ export default function PreOrder() {
             {/* Game Image */}
             <div className="text-center lg:text-left">
               <div className="relative max-w-sm mx-auto lg:mx-0">
-                <div className="aspect-[493/622] rounded-lg border border-accent/30 overflow-hidden">
+                <div className="aspect-[1024/1536] rounded-lg border border-accent/30 overflow-hidden">
                   <Image
-                    src="/gta-vi-ps5-cover.jpg"
-                    alt="Grand Theft Auto VI PS5 Cover"
-                    width={493}
-                    height={622}
+                    src="/gta-vi-cover.png"
+                    alt="Grand Theft Auto VI Cover"
+                    width={1024}
+                    height={1536}
                     className="w-full h-full object-cover"
                     priority
                   />
