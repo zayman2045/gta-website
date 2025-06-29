@@ -7,7 +7,7 @@ export default function Missions() {
       <Navigation currentPage="missions" />
 
       {/* Hero Section */}
-      <header className="relative pt-40 px-4">
+      <header className="relative pt-25 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white neon-text">
             MISSIONS

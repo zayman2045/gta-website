@@ -7,12 +7,12 @@ export default function PreOrder() {
       <Navigation currentPage="pre-order" />
 
       {/* Hero Section */}
-      <header className="relative pt-40 px-4">
+      <header className="relative pt-25 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white neon-text">
             PRE-ORDER NOW
           </h1>
-          <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Secure your copy of Grand Theft Auto VI and unlock exclusive content
             on day one.
           </p>
@@ -20,12 +20,12 @@ export default function PreOrder() {
       </header>
 
       {/* Pre-Order Section */}
-      <section className="py-20 px-4">
+      <section className="py-10 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Game Image */}
             <div className="text-center lg:text-left">
-              <div className="relative">
+              <div className="relative max-w-sm mx-auto lg:mx-0">
                 <div className="aspect-[493/622] rounded-lg border border-accent/30 overflow-hidden">
                   <Image
                     src="/gta-vi-ps5-cover.jpg"
