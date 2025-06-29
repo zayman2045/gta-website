@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
@@ -7,20 +9,23 @@ export default function Home() {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <span className="text-2xl font-bold text-white neon-text">
+              <Link
+                href="/"
+                className="text-2xl font-bold text-white neon-text"
+              >
                 GTA VI
-              </span>
+              </Link>
             </div>
 
             {/* Desktop Navigation */}
             <div className="hidden md:block">
               <div className="ml-10 flex items-center space-x-8">
-                <a
-                  href="#"
+                <Link
+                  href="/missions"
                   className="text-gray-300 hover:text-accent transition-colors"
                 >
                   Missions
-                </a>
+                </Link>
                 <button className="gta-button text-sm">Pre-Order</button>
               </div>
             </div>
@@ -49,12 +54,12 @@ export default function Home() {
         {/* Mobile Navigation */}
         <div className="hidden md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1">
-            <a
-              href="#"
+            <Link
+              href="/missions"
               className="block px-3 py-2 text-gray-300 hover:text-accent"
             >
               Missions
-            </a>
+            </Link>
             <button className="w-full gta-button text-sm mt-2">
               Pre-Order
             </button>
