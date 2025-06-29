@@ -29,7 +29,9 @@ export default function Navigation({ currentPage }: NavigationProps) {
               >
                 Missions
               </Link>
-              <button className="gta-button text-sm">Pre-Order</button>
+              <Link href="/pre-order" className="gta-button text-sm">
+                Pre-Order
+              </Link>
             </div>
           </div>
 
@@ -67,7 +69,12 @@ export default function Navigation({ currentPage }: NavigationProps) {
           >
             Missions
           </Link>
-          <button className="w-full gta-button text-sm mt-2">Pre-Order</button>
+          <Link
+            href="/pre-order"
+            className="w-full gta-button text-sm mt-2 block text-center"
+          >
+            Pre-Order
+          </Link>
         </div>
       </div>
     </nav>
